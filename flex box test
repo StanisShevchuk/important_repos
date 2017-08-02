@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flexbox</title>
+</head>
+<body>
+	<div class="container_flex">
+		<div class="box">1</div>
+		<div class="box">2</div>
+		<div class="box">3</div>
+		<div class="box">4</div>
+		<div class="box">5</div>
+		<div class="box">6</div>
+		<div class="box">7</div>
+		<div class="box">8</div>
+	</div>
+	<style>
+		.container_flex{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			max-width: 900px;
+			width: 100%;
+			background: green;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			text-align: center;
+			margin: 20px;
+			border: 1px solid red;
+			background: blue;
+			color: white;
+			font-size: 40px;
+			line-height: 200px;
+			
+		}
+	</style>
+</body>
+</html>
