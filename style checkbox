@@ -17,6 +17,10 @@ p{
     cursor: pointer;
     margin: 4px 8px 8px 0;
     opacity: 0.6;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
   }
   input[type="checkbox"]:checked + label span{
     background-image:url(../image/checkbox_check.png);
